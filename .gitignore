@@ -1,0 +1,10 @@
+# FOLDERS ######################
+node_modules/
+.expo/
+dist/
+web-build/
+
+# FILES ########################
+package-lock.json
+pnpm-lock.yaml
+

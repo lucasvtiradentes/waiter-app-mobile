@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off"
+  },
+  "compilerOptions": {
+    "strict": true,
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin",
+        "tags": [
+          "elevation"
+        ],
+        "validate": false
+      }
+    ]
+  }
+}
